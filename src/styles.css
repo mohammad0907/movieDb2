@@ -1,0 +1,130 @@
+
+body{
+    font-family: 'Oswald', sans-serif;
+    padding: 0px;
+    background-color: #1a1a1d
+  
+  }
+  
+  .content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+    margin-top: 50px;
+    background-color: #1a1a1d
+  
+  
+    
+  }
+  
+  
+  .mainContent{
+    width: 70%;
+    display: flex;
+    color: white;
+  
+  }
+  .mainContent > div {
+    margin-right: 10px;
+  }
+  
+  
+  .poster{
+    padding: 20px;
+    
+  }
+  
+  img {
+    border-radius: 8px;
+    
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: column;
+  
+    
+  }
+  
+  .description > div{
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  .actors{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 130px;
+    
+   
+  }
+  
+  .actors > div{ 
+    
+  }
+  
+  
+  .navFont{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+  }
+  
+  
+  @media only screen and (max-width: 900px) {
+    body{
+      display:flex;
+      justify-content: center;
+      padding: 20px;
+      margin-left: 10px;
+    
+    }
+  
+    .content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     
+  
+     
+      
+      margin-top: 20px;
+     
+    
+      
+    }
+    .mainContent{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  
+    
+    }
+  
+    .actors{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 150px;
+      
+      
+     
+    }
+    
+  
+    #navBar{
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    #searchBar{
+      width: 100%;
+    }
+    
+  }
