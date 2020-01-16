@@ -30,7 +30,7 @@ class Description extends Component{
           <span>Run Time : {this.props.itemData.Runtime} </span>
         </div>
         <div>
-         <h3>IMDB : {rate.Value}  </h3> 
+         <h3>IMDB : {this.props.itemData.imdbRating === "N/A" ? this.props.itemData.imdbRating : this.props.itemData.imdbRating + "/10" }  </h3> 
         </div>
 
         <div>

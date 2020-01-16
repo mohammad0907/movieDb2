@@ -37,7 +37,7 @@ export default function ButtonAppBar() {
         <Toolbar>
           
           <Typography variant="h6" className={classes.title}>
-            <img src = "https://img14.androidappsapk.co/300/0/e/0/ordabool.themoviedb.png" height = '76' width = '80' />
+            <img src = "https://pbs.twimg.com/profile_images/789117657714831361/zGfknUu8_400x400.jpg" height = '76' width = '80' />
           </Typography>
           <Button color="inherit"> <span className = "navFont">Movies And TV Shows</span></Button>
           
